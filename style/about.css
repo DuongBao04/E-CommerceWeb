@@ -1,0 +1,68 @@
+#page-header.about-header {
+    background-image: url(img/about/banner.png);
+}
+#about-head {
+    display:flex;
+    align-items: center;
+}
+#about-head div {
+    padding-left :50px;
+    display:flex ;
+    flex-direction: column;
+    width: 50%;
+}
+#about-head div p {
+    text-align: justify;
+    font-size:17px;
+    line-height: 19px;
+}
+#about-head img {
+    width: 50%;
+}
+#about-head .marquee-container {
+    width: 100%;
+    white-space: nowrap; /* Ngăn đoạn văn bản xuống dòng */
+    overflow: hidden; /* Ẩn các phần vượt ra ngoài container */
+    background-color:lightgray;
+}
+#about-head .marquee-container p {
+    display:inline-block;
+    animation: marquee-scroll 15s linear infinite; /* Áp dụng animation */
+    line-height: 17px;
+    margin:3px 0 0 0;
+}
+@keyframes marquee-scroll {
+    0% {
+      transform: translateX(100%); /* Di chuyển về bên phải */
+    }
+    100% {
+      transform: translateX(-100%); /* Di chuyển về bên trái */
+    }
+}
+
+#about-app {
+    text-align: center;
+}
+#about-app .video {
+    width: 70%;
+    height: 100%;
+    margin:30px auto 0 auto;
+}
+
+#about-app .video video {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+#about-app h1 a {
+    text-decoration: none;
+    border:5px solid rgb(163,214,245);
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: rgb(163,214,245);
+}
+#about-app h1 a:hover {
+    transition: 0.2s;
+    opacity:0.8;
+}
+

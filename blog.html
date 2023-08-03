@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+    <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/index.css">
+
+        <link rel="stylesheet" href="style/shoppage.css">
+        <link rel="stylesheet" href="style/blog.css">
+
+
+        <link rel="stylesheet" href="style/general.css">
+
+        <title>E-commerce Web</title>
+    </head>
+    <body>
+        <section id = "header">
+            <a href = "#"><img src= "style/img/logo.png" class = "logo" alt=""></a>
+
+            <div>
+                <ul id = "navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html" >Shop</a></li>
+                    <li><a href="blog.html" class = "active">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class = "shopping-bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></i></a></li>
+                    <a href="#" id = "close"><i class="fa-solid fa-xmark"></i></a>
+                </ul>
+            </div>
+
+            <div id = "mobile">
+                <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+                <i id = "bar" class="fa-solid fa-bars"></i>
+            </div>
+        </section>
+
+        <section id = "page-header" class= "blog-header">
+            <h2>#readme</h2>
+            <p>Read all case study about our products!</p>
+        </section>
+
+        <section id ="blog">
+            <!-- blog1 -->
+            <div class = "blog-box">
+                <div class="blog-image">
+                    <img src="style/img/blog/b1.jpg" alt="">
+                </div>
+                <div class = "blog-details">
+                    <h4>Elevate Your Style: Discover the Ultimate Fashion Destination</h4>
+                    <p>
+                        In the modern era, fashion has emerged as a powerful means of expressing individuality. 
+                            What we wear reflects our tastes, beliefs, and moods.
+                            Whether we opt for vibrant colors to express our exuberance or don a classic outfit to emanate elegance,
+                            our clothing choices become an extension of our personalities.
+                        <span id = "short-text">...</span>
+                        <span id = "full-text" style = "display:none;">
+                            Fashion allows us to stand out or blend in,
+                              make bold statements, or embrace minimalism - it's all about how we wish to convey ourselves to the world.
+                              Clothes are deeply intertwined with culture and tradition.
+                               Every culture has its unique styles, traditional garments, and clothing customs.
+                                For example, the elegant saree in India, the graceful hanbok in South Korea, or the dapper kilt in Scotland, each has a story rooted in history.
+                                 As societies become more interconnected, fashion has become a fusion of diverse cultural elements, giving rise to exciting new trends and designs.
+                        </span> 
+                    </p>
+                    
+                    <button onclick="toggleReadMore(0)" id = "readMoreBtn">CONTINUE READING</button>
+                </div>
+                <h1>13/01</h1>
+            </div>
+
+            <!-- blog2 -->
+            <div class = "blog-box">
+                <div class="blog-image">
+                    <img src="style/img/blog/b2.jpg" alt="">
+                </div>
+                <div class = "blog-details">
+                    <h4>Embracing Sustainable Fashion: Dressing for a Greener Future</h4>
+                    <p>
+                        One of the cornerstones of sustainable fashion lies in the materials used to create clothing.
+                         Eco-friendly fabrics like organic cotton, hemp, bamboo, and Tencel (made from sustainably sourced wood pulp) are gaining popularity due to their reduced impact on the environment.
+                          Additionally, innovative textiles made from recycled plastic bottles or discarded fishing nets are proving that fashion can be both stylish and sustainable
+                        <span id = "short-text">...</span>
+                        <span id = "full-text" style = "display:none;">
+                            Slow fashion promotes a shift away from the fast-paced, disposable clothing culture.
+                             It encourages consumers to buy fewer, high-quality pieces that are durable and timeless.
+                              By investing in well-made garments, we reduce our overall consumption and contribute to a more sustainable industry.
+                               Taking care of our clothes, mending them when needed, and passing them on to others are all essential aspects of embracing slow fashion.
+                        </span> 
+                    </p>
+                    
+                    <button onclick="toggleReadMore(1)" id = "readMoreBtn">CONTINUE READING</button>
+                </div>
+                <h1>12/04</h1>
+            </div>
+
+            <!-- blog3 -->
+            <div class = "blog-box">
+                <div class="blog-image">
+                    <img src="style/img/blog/b3.jpg" alt="">
+                </div>
+                <div class = "blog-details">
+                    <h4>Dressing with Confidence: Unleashing Your Personal Style</h4>
+                    <p>
+                        Personal style is not about conforming to societal norms or imitating others; it's about embracing your authentic self.
+                         Take some time to reflect on what truly makes you feel good and confident in your skin.
+                          Whether it's bold colors, classic silhouettes, or quirky accessories, listen to your inner voice and let it guide you towards the styles that resonate with your true essence.
+                        <span id = "short-text">...</span>
+                        <span id = "full-text" style = "display:none;">
+                            Finding style inspiration can be a fun and enlightening process. 
+                            Look to fashion blogs, magazines, Pinterest boards, or even iconic fashion figures whose style you admire. 
+                            While drawing inspiration from others, remember to infuse your personality and individual touch into the outfits you create. 
+                            Experiment with different looks until you find the ones that make you feel like the best version of yourself.
+                        </span> 
+                    </p>
+                    
+                    <button onclick="toggleReadMore(2)" id = "readMoreBtn">CONTINUE READING</button>
+                </div>
+                <h1>23/06</h1>
+            </div>
+
+            <!-- blog4 -->
+            <div class = "blog-box">
+                <div class="blog-image">
+                    <img src="style/img/blog/b4.jpg" alt="">
+                </div>
+                <div class = "blog-details">
+                    <h4>Fashion and Self-Expression: Unleashing Creativity Through Clothing</h4>
+                    <p>
+                        Fashion is an extraordinary art form that allows us to express our inner selves and unleash our creativity.
+                         Our clothing choices can be a canvas on which we paint our unique personalities, passions, and emotions.
+                          It's a form of self-expression that knows no bounds, transcending cultural barriers and speaking a universal language.
+                        <span id = "short-text">...</span>
+                        <span id = "full-text" style = "display:none;">
+                            Clothing goes far beyond being a mere necessity; it is a powerful means of self-expression.
+                             Whether we choose vibrant patterns and colors to radiate joy or opt for monochromatic tones to portray elegance, our outfits tell a story about who we are and what we wish to convey.
+                              Fashion gives us the freedom to curate our own narratives, expressing our dreams, hopes, and even challenges through our attire.
+                        </span> 
+                    </p>
+                    
+                    <button onclick="toggleReadMore(3)" id = "readMoreBtn">CONTINUE READING</button>
+                </div>
+                <h1>13/01</h1>
+            </div>
+
+            <!-- blog5 -->
+            <div class = "blog-box">
+                <div class="blog-image">
+                    <img src="style/img/blog/b6.jpg" alt="">
+                </div>
+                <div class = "blog-details">
+                    <h4>Fashion Evolution: A Journey Through Decades of Style</h4>
+                    <p>
+                        Fashion is a living, breathing entity that continuously evolves, taking inspiration from history, culture, and society. 
+                        From the glamorous styles of the roaring '20s to the grunge revolution of the '90s, each decade has left its mark on the world of clothing. 
+                        This blog takes you on an exciting journey through the fashion evolution of the past decades, highlighting iconic trends and the timeless influence of fashion on our lives
+                        <span id = "short-text">...</span>
+                        <span id = "full-text" style = "display:none;">
+                            Fashion is an ever-changing tapestry that weaves together the threads of time, culture, and human expression.
+                             Each decade leaves its indelible mark on the fabric of style, reflecting the spirit of its time.
+                              From the glamorous flapper dresses of the '20s to the rebellious grunge looks of the '90s, fashion evolves in tandem with society's values, desires, and aspirations.
+                               As we move forward into the future, fashion will continue to be a timeless language of self-expression, connecting us with our past while inspiring the trends of tomorrow.
+                                So, embrace the richness of fashion's history, experiment with styles, and let your unique fashion choices become a part of this ever-evolving journey through the decades.
+                        </span> 
+                    </p>
+                    
+                    <button onclick="toggleReadMore(4)" id = "readMoreBtn">CONTINUE READING</button>
+                </div>
+                <h1>13/01</h1>
+            </div>
+        </section>
+
+        <section id = "pagination" class = "section-p1">
+            <a href="">1</a>
+            <a href="">2</a>
+            <a href="" class = "right-arrow"><i class="fa-solid fa-arrow-right "></i></a>
+        </section>
+
+        <section id = "newsletter" class = "section-p1 section-m1">
+            <div class = "newstext">
+                <h4>Sign Up For Newsletter</h4>
+                <p>Get E-mail updates about out latest shop and <span>special offers.</span></p>
+            </div>
+            <div class = "form">
+                <input type="text" placeholder="Your Email Address">
+                <button class = "normal">Sign Up</button>
+            </div>
+        </section>
+
+        <footer class = "section-p1">
+            <div class = "col">
+                <img src="style/img/logo.png" alt="" class ="logo">
+                <h4>Contact</h4>
+                <p><strong>Address:</strong> 562 Wellington Road, Street 32, San Francisco</p>
+                <p><strong>Phone:</strong> +01 2222 365/(+091)01 2345 6543</p>
+                <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+                <div class = "follow">
+                    <h4>Follow Us</h4>
+                    <div class = "icon">
+                        <i class="fa-brands fa-facebook facebook"></i>
+                        <i class="fa-brands fa-square-instagram instagram"></i>
+                        <i class="fa-brands fa-github github"></i>
+                        <i class="fa-brands fa-linkedin linkedin"></i>
+                        <i class="fa-brands fa-twitter twitter"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "col">
+                <h4>About</h4>
+                <a href="#">About Us</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+            <div class = "col">
+                <h4>My Account</h4>
+                <a href="#">Sign In</a>
+                <a href="#">View Cart</a>
+                <a href="#">My Whitelist</a>
+                <a href="#">Track My Order</a>
+                <a href="#">Help</a>
+            </div>
+
+            <div class = "col install">
+                <h4>Install App</h4>
+                <p>From App Store or Google Play</p>
+                <div class = "row">
+                    <img src="style/img/pay/app.jpg" alt="">
+                    <img src="style/img/pay/play.jpg" alt="">
+                </div>
+                <p>Secure Payment Gateway</p>
+                <img src="style/img/pay/pay.png" alt="">
+                <div class = "copyright">
+                    <p>© 2023, Duong Gia Bao - Computer Engineering</p>
+                </div>
+            </div>
+    
+        </footer>
+
+        <script src = "scripts/script.js"></script>
+        <script src = "scripts/blog.js"></script>
+        <script src = "https://kit.fontawesome.com/8d83be9bcd.js" crossorigin="anonymous"></script>
+    </body>
+</html>
+</html>

@@ -1,0 +1,67 @@
+#prodetails{
+    display:flex;
+    margin-top:20px;
+    align-items: stretch;
+    height:900px ;
+}
+
+#prodetails .single-pro-image{
+    width: 45%;
+    margin-right: 40px;
+}
+#prodetails .single-pro-image .small-img-group {
+    display:flex;
+    justify-content: space-between;
+}
+#prodetails .single-pro-image .small-img-group .small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+#prodetails .single-pro-details {
+    width: 50%;
+    padding-top:20px;
+}
+#prodetails .single-pro-details h4 {
+    padding: 40px 0 20px 0;
+}
+#prodetails .single-pro-details h2 {
+    font-size:26px;
+}
+#prodetails .single-pro-details select {
+    display:block;
+    padding:5px 10px;
+    margin-bottom:10px;
+}
+#prodetails .single-pro-details .input {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+#prodetails .single-pro-details .input input {
+    width: 30%;
+    padding-left:10px;
+}
+#prodetails .single-pro-details .input input:focus {
+    outline: none;
+} 
+#prodetails .single-pro-details .input button {
+    padding:10px 10px;
+    width: 65%;
+    background-color: #088178;
+    color:#fff;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.2s;
+}
+#prodetails .single-pro-details .input button:hover {
+    color:#b9b5b5;
+}
+#prodetails .single-pro-details .description{
+    line-height: 20px;
+}
+#prodetails .single-pro-details .description ol {
+    margin:15px;
+}

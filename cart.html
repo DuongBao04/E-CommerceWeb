@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style/index.css">
+        <link rel="stylesheet" href="style/shoppage.css">
+        <link rel="stylesheet" href="style/blog.css">
+        <link rel="stylesheet" href="style/about.css">
+        <link rel="stylesheet" href="style/contact.css">
+        <link rel="stylesheet" href="style/cart.css">
+        <link rel="stylesheet" href="style/general.css">
+
+        <title>E-commerce Web</title>
+    </head>
+    <body>
+        <section id = "header">
+            <a href = "#"><img src= "style/img/logo.png" class = "logo" alt=""></a>
+            <div>
+                <ul id = "navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class = "shopping-bag"><a href="cart.html" class = "active"><i class="fa-solid fa-bag-shopping"></i></i></a></li>
+                    <a href="#" id = "close"><i class="fa-solid fa-xmark"></i></a>
+                </ul>
+            </div>
+
+            <div id = "mobile">
+                <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+                <i id = "bar" class="fa-solid fa-bars"></i>
+            </div>
+        </section>
+
+        <section id = "page-header" class= "about-header">
+            <h2>#Let's_Talk</h2>
+            <p>LEAVE A MESSAGE. We love to hear form you!</p>
+        </section>
+
+        <section id = "cart">
+            <table>
+                <thead>
+                    <tr>
+                        <th>REMOVE</th>
+                        <th>IMAGE</th>
+                        <th>PRODUCT</th>
+                        <th>PRICE</th>
+                        <th>QUANTITY</th>
+                        <th>SUBTOTAL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </section>
+
+        <section id = "payment" class = "section-p1">
+            <div id = "coupon">
+                <h3>Apply Coupon</h3>
+                <div>
+                    <input type="text" placeholder="Enter Your Coupon">
+                    <button class = "normal" onclick="applyCoupon()">Apply</button>
+                </div>
+            </div>
+            <div id = "checkout">
+                <button class = "normal" onclick ="pay()">Proceed to checkout</button>
+            </div>
+        </section>
+
+        <footer class = "section-p1">
+            <div class = "col">
+                <img src="style/img/logo.png" alt="" class ="logo">
+                <h4>Contact</h4>
+                <p><strong>Address:</strong> 562 Wellington Road, Street 32, San Francisco</p>
+                <p><strong>Phone:</strong> +01 2222 365/(+091)01 2345 6543</p>
+                <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+                <div class = "follow">
+                    <h4>Follow Us</h4>
+                    <div class = "icon">
+                        <i class="fa-brands fa-facebook facebook"></i>
+                        <i class="fa-brands fa-square-instagram instagram"></i>
+                        <i class="fa-brands fa-github github"></i>
+                        <i class="fa-brands fa-linkedin linkedin"></i>
+                        <i class="fa-brands fa-twitter twitter"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "col">
+                <h4>About</h4>
+                <a href="#">About Us</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+            <div class = "col">
+                <h4>My Account</h4>
+                <a href="#">Sign In</a>
+                <a href="#">View Cart</a>
+                <a href="#">My Whitelist</a>
+                <a href="#">Track My Order</a>
+                <a href="#">Help</a>
+            </div>
+
+            <div class = "col install">
+                <h4>Install App</h4>
+                <p>From App Store or Google Play</p>
+                <div class = "row">
+                    <img src="style/img/pay/app.jpg" alt="">
+                    <img src="style/img/pay/play.jpg" alt="">
+                </div>
+                <p>Secure Payment Gateway</p>
+                <img src="style/img/pay/pay.png" alt="">
+                <div class = "copyright">
+                    <p>© 2023, Duong Gia Bao - Computer Engineering</p>
+                </div>
+            </div>
+    
+        </footer>
+
+        <script src="scripts/cart.js"></script>
+        <!-- <script src = "scripts/script.js"></script> -->
+        <script src = "https://kit.fontawesome.com/8d83be9bcd.js" crossorigin="anonymous"></script>
+    </body>
+</html>

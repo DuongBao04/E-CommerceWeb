@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="style/index.css">
+        <link rel="stylesheet" href="style/shoppage.css">
+        <link rel="stylesheet" href="style/prodetails.css">
+        <link rel="stylesheet" href="style/general.css">
+
+        <title>Ecommerce Web</title>
+    </head>
+    <body>
+        <section id = "header">
+            <a href = "#"><img src= "style/img/logo.png" class = "logo" alt=""></a>
+
+            <div>
+                <ul id = "navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html" class = "active">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class = "shopping-bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></i></a></li>
+                    <a href="#" id = "close"><i class="fa-solid fa-xmark"></i></a>
+                </ul>
+            </div>
+
+            <div id = "mobile">
+                <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+                <i id = "bar" class="fa-solid fa-bars"></i>
+            </div>
+        </section>
+
+        <section id = "prodetails" class = "section-p1">
+            <!-- image -->
+            <div class = "single-pro-image">
+                <img src="style/img/products/f1.jpg" width="100%" id = "mainImg" alt="">
+                <div class = "small-img-group">
+                    <div class = "small-img-col">
+                        <img src="style/img/products/f1.jpg" width="100%" alt="" class = "small-img">  
+                    </div>
+                    <div class = "small-img-col">
+                        <img src="style/img/products/f2.jpg" width="100%" alt="" class = "small-img">  
+                    </div>
+                    <div class = "small-img-col">
+                        <img src="style/img/products/f3.jpg" width="100%" alt="" class = "small-img">  
+                    </div>
+                    <div class = "small-img-col">
+                        <img src="style/img/products/f4.jpg" width="100%" alt="" class = "small-img">  
+                    </div>
+                </div>
+            </div>
+
+            <!-- details -->
+            <div class = "single-pro-details">
+                <h6>Home / T-Shirt</h6>
+                <h4>ComfortBlend Crewneck T-Shirt</h4>
+                <h2>$79.99</h2>
+                <select name="" id="">  
+                    <option value="">Select Size</option>
+                    <option value="">XL</option>
+                    <option value="">XXL</option>
+                    <option value="">Small</option>
+                    <option value="">Large</option>
+                </select>
+                <div class = "input">
+                    <input type="number" value = "1" class = "quantity-input">
+                    <button class = "addToCart-btn" onclick="addToCart()">Add to cart</button>
+                </div>
+                <div class = "description">
+                    <h4>Product Details</h4>
+                    <span>Experience ultimate comfort and style with our ComfortBlend Crewneck T-Shirt.
+                    Crafted from a premium blend of high-quality cotton and polyester,
+                    this t-shirt offers unbeatable softness and durability, making it your go-to wardrobe staple for any occasion.</span>
+                    <ol>
+                        <li>Superior Comfort:
+                             The ComfortBlend fabric ensures a luxuriously soft feel against your skin, allowing you to stay at ease throughout the day.</li>
+                        <li>Breathable and Lightweight: Designed with breathability in mind, 
+                            this t-shirt keeps you cool even during hot weather, making it perfect for outdoor activities and casual outings.</li>
+                        <li>Classic Crewneck Design: 
+                            The timeless crewneck design adds a touch of elegance to your casual look while providing a comfortable fit around the neck.</li>
+                        <li>Tailored Fit: 
+                            Our t-shirt is carefully cut and stitched to offer a flattering fit that complements various body types, enhancing your overall appearance.</li>
+                        <li>Versatile Style: 
+                            Whether you're pairing it with your favorite jeans, layering it under a jacket, or using it as a standalone statement piece, 
+                            this t-shirt effortlessly adapts to any style, making it a versatile addition to your wardrobe.
+                        </li>
+                        <li>Durability and Longevity: Constructed with premium materials and reinforced stitching, 
+                            this t-shirt is built to withstand daily wear and multiple washes, ensuring long-lasting use.</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section id = "product1" class = "section-p1">
+            <h2>Feature Products</h2>
+            <p>Summer Collection New Modern Design</p>
+            <div class = "pro-container">
+                <div class = "pro">
+                    <img src="style/img/products/n1.jpg" alt="">      
+                    <div class = "des">
+                        <span>adidas</span>
+                        <h5>Cartoon Astronaut T-Shirts</h5>
+                        <div class = "star">
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                        </div>
+                        <h4>$78.99</h4>
+                    </div> 
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class = "pro">
+                    <img src="style/img/products/n2.jpg" alt="">      
+                    <div class = "des">
+                        <span>adidas</span>
+                        <h5>ZenTee T-Shirts</h5>
+                        <div class = "star">
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                        </div>
+                        <h4>$69.99</h4>
+                    </div> 
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class = "pro">
+                    <img src="style/img/products/n3.jpg" alt="">      
+                    <div class = "des">
+                        <span>adidas</span>
+                        <h5>WanderWear T-Shirts</h5>
+                        <div class = "star">
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                        </div>
+                        <h4>$74.99</h4>
+                    </div> 
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class = "pro">
+                    <img src="style/img/products/n4.jpg" alt="">      
+                    <div class = "des">
+                        <span>adidas</span>
+                        <h5>ArtisanAvenue T-Shirts</h5>
+                        <div class = "star">
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                        </div>
+                        <h4>$77.99</h4>
+                    </div> 
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id = "newsletter" class = "section-p1 section-m1">
+            <div class = "newstext">
+                <h4>Sign Up For Newsletter</h4>
+                <p>Get E-mail updates about out latest shop and <span>special offers.</span></p>
+            </div>
+            <div class = "form">
+                <input type="text" placeholder="Your Email Address">
+                <button class = "normal">Sign Up</button>
+            </div>
+        </section>
+
+        <footer class = "section-p1">
+            <div class = "col">
+                <img src="style/img/logo.png" alt="" class ="logo">
+                <h4>Contact</h4>
+                <p><strong>Address:</strong> 562 Weillington Road, Street 32, San Francisco</p>
+                <p><strong>Phone:</strong> +01 2222 365/(+091)01 2345 6543</p>
+                <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+                <div class = "follow">
+                    <h4>Follow Us</h4>
+                    <div class = "icon">
+                        <i class="fa-brands fa-facebook facebook"></i>
+                        <i class="fa-brands fa-square-instagram instagram"></i>
+                        <i class="fa-brands fa-github github"></i>
+                        <i class="fa-brands fa-linkedin linkedin"></i>
+                        <i class="fa-brands fa-twitter twitter"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "col">
+                <h4>About</h4>
+                <a href="#">About Us</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+            <div class = "col">
+                <h4>My Account</h4>
+                <a href="#">Sign In</a>
+                <a href="#">View Cart</a>
+                <a href="#">My Withlist</a>
+                <a href="#">Track My Order</a>
+                <a href="#">Help</a>
+            </div>
+
+            <div class = "col install">
+                <h4>Install App</h4>
+                <p>From App Store or Google Play</p>
+                <div class = "row">
+                    <img src="style/img/pay/app.jpg" alt="">
+                    <img src="style/img/pay/play.jpg" alt="">
+                </div>
+                <p>Secure Payment Gateway</p>
+                <img src="style/img/pay/pay.png" alt="">
+                <div class = "copyright">
+                    <p>© 2023, Duong Gia Bao - Computer Engineering</p>
+                </div>
+            </div>
+    
+        </footer>
+
+        <script src="scripts/script.js"></script>
+        <script src="https://kit.fontawesome.com/8d83be9bcd.js" crossorigin="anonymous"></script>
+    </body>
+</html>

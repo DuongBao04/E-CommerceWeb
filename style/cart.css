@@ -1,0 +1,120 @@
+#cart{
+    display:flex;
+    flex-direction: column;
+}
+#cart table{
+    align-self: center;
+    margin:50px 0 ;
+    width: 90%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    white-space: nowrap;
+}
+#cart table tbody tr td {
+    text-align: center;
+}
+
+#cart table img{
+    width: 70px;
+}
+#cart table tbody tr td{
+    padding-top:10px;
+}
+
+#cart table td:nth-child(1){
+    width: 100px;
+    text-align: center;
+}
+
+#cart table td:nth-child(2){
+    width: 150px;
+    text-align: center;
+}
+#cart table td:nth-child(3){
+    width: 250px;
+    text-align: center;
+}
+
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6){
+    width: 150px;
+    text-align: center;
+}
+
+#cart table td:nth-child(5) input {
+    width: 70px;
+    padding: 10px 5px 10px 15px;
+}
+
+#cart table tbody tr td i:hover{
+    cursor: pointer;
+}
+
+#cart table thead {
+    border:1px solid #e2e9e1;
+    border-right: none;
+    border-left: none;
+}
+
+#cart thead tr th{
+    line-height: 50px;
+}
+
+#cart .total-output p{
+    color:#487997;
+    border-top: 1px solid #000;
+    line-height: 50px;
+    margin: 0;
+    font-size: 20px;
+}
+#cart .total-output td {
+    font-weight: bold;
+}
+
+#payment{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+#payment #coupon {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+#payment #coupon h3{
+    font-size: 25px;
+    text-decoration-line: underline;
+}
+
+#payment #coupon div {
+    display: flex;
+    margin-top:25px;
+}
+
+#payment #coupon div input {
+    padding:10px 20px;
+    outline: none;
+    width: 40%;
+    margin-right: 10px;
+    border:1px solid #e2e9e1;
+    font-size: 16px;
+}
+
+#payment #coupon div button {
+    color:#fff;
+    background-color: #088178;
+    transition: 0.2s;
+}
+
+#payment #coupon div button:hover {
+    color:lightgray;
+}
+
+#payment #checkout button{
+    font-size: 18px;
+    color: #fff;
+    background-color: #088178;
+}
